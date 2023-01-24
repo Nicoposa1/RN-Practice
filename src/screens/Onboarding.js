@@ -97,7 +97,7 @@ export default function Oboarding() {
           </Text>
         </View>
       </View>
-      <Button title={'Continue'} onPress={handlePress} />
+      <MyButton title={'Continue'} onPress={handlePress} />
     </View>
   );
 }

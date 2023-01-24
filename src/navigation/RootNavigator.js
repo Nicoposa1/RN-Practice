@@ -11,6 +11,7 @@ import Splash from "../screens/Splash";
 
 export default function RootNavigator() {
   const { userToken, isLoading } = useSelector(state => state.auth);
+  console.log("🚀 ~ file: RootNavigator.js ~ line 14 ~ RootNavigator ~ userToken", userToken)
   const dispatch = useDispatch();
 
   useEffect(() => {

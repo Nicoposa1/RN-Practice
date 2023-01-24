@@ -49,12 +49,12 @@ const Home = () => {
 
   return (
     <View style={globalStyles.container}>
-      <DateTimePicker
+      {/* <DateTimePicker
         value={date}
         style={{ width: "25%" }}
         mode={"time"}
         onChange={(event, selectedDate) => setDate(selectedDate)}
-      />
+      /> */}
       <Button title={"Schedule Notification"} onPress={handleNotification} />
       <Card />
     </View>
